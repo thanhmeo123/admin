@@ -42,7 +42,7 @@ export default function App() {
 
             {/* Ui Elements */}
             <Route path="/alerts" element={<Alerts />} />
-            <Route path="/avatars" element={<Avatars />} />
+            {/* <Route path="/avatars" element={<Avatars />} /> */}
             <Route path="/badge" element={<Badges />} />
             <Route path="/buttons" element={<Buttons />} />
             <Route path="/images" element={<Images />} />

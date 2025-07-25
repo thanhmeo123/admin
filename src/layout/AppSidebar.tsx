@@ -36,11 +36,11 @@ const navItems: NavItem[] = [
     name: "Calendar",
     path: "/calendar",
   },
-  {
-    icon: <UserCircleIcon />,
-    name: "User Profile",
-    path: "/profile",
-  },
+  // {
+  //   icon: <UserCircleIcon />,
+  //   name: "User Profile",
+  //   path: "/error-404",
+  // },
   {
     name: "Forms",
     icon: <ListIcon />,
@@ -308,22 +308,22 @@ const AppSidebar: React.FC = () => {
             <>
               <img
                 className="dark:hidden"
-                src="/images/logo/logo.svg"
+                src="/images/user/owner.jpg"
                 alt="Logo"
-                width={150}
-                height={40}
+                width={120}
+                height={30}
               />
               <img
                 className="hidden dark:block"
-                src="/images/logo/logo-dark.svg"
+                src="/images/user/owner.jpg"
                 alt="Logo"
-                width={150}
+                width={120}
                 height={40}
               />
             </>
           ) : (
             <img
-              src="/images/logo/logo-icon.svg"
+              src="/images/user/owner.jpg"
               alt="Logo"
               width={32}
               height={32}
